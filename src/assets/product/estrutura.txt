@@ -1,0 +1,11 @@
+>card_home
+ >playstation
+  >brasil
+  >usa
+  >hongkong
+>card_full
+>icon
+ >bandeiras
+ >categorias
+>banner
+

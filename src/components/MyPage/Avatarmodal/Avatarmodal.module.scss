@@ -1,0 +1,115 @@
+@use '../../../assets/style/base';
+
+
+.avatarmodal_wrap {
+      position: relative;
+      align-self: center;
+      margin: 0 auto;
+      padding: 20px;
+      max-width: 536px;
+
+      background-color: #0D3840;
+      border-radius: 15px;
+      text-align: center;
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+        padding: 16px 8px;
+      }
+
+      .modal_close {
+         position: absolute;
+         top: 10px;
+         right: 10px;
+         background: none;
+         border: none;
+
+         img {
+            width: 20px;
+            height: 20px;
+         }
+      }
+
+      dl {
+         margin-left: 25px;
+
+         dt {
+            font-family: Poppins;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+         }
+
+         dd {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+         }
+      }
+
+      .avatar_wrap {
+         display: flex;
+         justify-content: flex-end;
+         height: 460px;
+         padding: 20px 0;
+
+         .crop_container {
+               margin-bottom: 20px;
+               width: 430px;
+               height: 430px;
+               position: absolute;
+               top: 93px;
+               left: 20px;
+               border-radius: 430px;
+
+
+            img {
+              margin: 0 auto;
+            }
+
+            @media (max-width: 765px) {
+              width: 100%;
+              top: 160px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px){
+              top: 25%;
+              left: 25%;
+            }
+         }
+         .controls {
+            padding: 20px 5px;
+            border-radius: 60px;
+            background: #01191E;
+            // position: absolute;
+            // bottom: 0;
+            // left: 50%;
+            // width: 50%;
+            // transform: translateX(-50%);
+            // height: 80px;
+            // display: flex;
+            // align-items: center;
+         }
+      }
+
+      button {
+         padding: 11px;
+         font-family: Poppins;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 24px;
+         letter-spacing: 0em;
+         text-align: center;
+      }
+
+   }
+
+

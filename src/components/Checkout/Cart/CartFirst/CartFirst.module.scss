@@ -1,0 +1,120 @@
+.config_panel_left {
+  margin-right:10px;
+  padding: 0px 29px 0px 20px;
+  max-width: 880px;
+  background-color: #01191E;
+  border-radius: 15px;
+  width: 668px;
+  height : 100%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 765px) {
+    padding: 0 10px;
+  }
+}
+
+.left_panel_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 32px 0;
+  height: 164px;
+
+  border-bottom : 1px #0D3840 solid;
+
+  img {
+    width: 132px;
+    min-height: 100%;
+    max-height: 132px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 765px) {
+    display: flex;
+    align-self: center;
+
+    img {
+      display: none;
+    }
+  }
+
+  &:last-child {
+    border-bottom:  none;
+  }
+}
+
+.left_panel_infos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.left_panel_content_p1 {
+  width : 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-left: 16px;
+
+  @media (max-width: 765px) {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+}
+
+.left_panel_content_div1 {
+    margin-top : 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    @media (max-width: 765px) {
+      gap: 8px;
+    }
+}
+
+.left_panel_content_div2 {
+  width: 30%;
+
+  @media (max-width: 765px) {
+    width: 60%;
+  }
+}
+
+ .left_panel_content_div1 input {
+    text-align:center;
+    outline : none;
+    border:none;
+    -webkit-appearance: none !important;
+  }
+
+  .left_panel_content_div1 input::-webkit-outer-spin-button,
+  .left_panel_content_div1 input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.left_panel_content_button {
+    width: 30px;
+    height: 27px;
+    background-color: #0D3840;
+    margin: 0 5px;
+    border-radius: 8px;
+  }
+.left_panel_content_sub, .left_panel_content_add {
+    background : none;
+    border : none;
+  }
+.left_panel_content_p2 {
+    font-size :22px;
+    text-align: right;
+
+    @media (max-width: 765px) {
+      font-size: 16px;
+    }
+  }

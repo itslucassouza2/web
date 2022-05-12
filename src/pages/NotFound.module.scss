@@ -1,0 +1,43 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #C5614D;
+    --purple: #2E1E50;
+    --dark: #01060A;
+}
+
+.notfound {
+    background-color: var(--dark);
+}
+
+
+.maincontent {
+    display: flex;
+    // justify-content: center;
+    margin-top: 48px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      flex: 1;
+    }
+}
+
+.container {
+    max-width: 1451px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.clearfix {
+    clear : both;
+}

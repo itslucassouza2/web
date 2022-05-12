@@ -1,0 +1,83 @@
+@import '../../../assets/style/base';
+
+.mydata_page_wrap {
+   padding-bottom: 10px;
+}
+.config_group {
+  margin: 0 auto;
+  margin-bottom: 63px;
+  width: 1012px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 16px;
+
+    p {
+      font-weight: 700;
+    }
+  }
+}
+.config_header {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      margin-bottom: 8px;
+    }
+}
+.config_header p {
+    font-size : 16px;
+}
+.config_panel1 {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.config_panel2 {
+  display: flex;
+  margin-top:20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.header_p1{
+  margin-left: 31px;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
+}
+.header_p2{
+  margin-left: 260px;
+
+  @media (max-width: 765px) {
+    margin-left: 120px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-left: 355px;
+  }
+}
+.header_p3{
+  margin-right: 80px;
+
+  @media (max-width: 768px) {
+    margin-left: 45px;
+  }
+}
+.header_p4{
+  margin-right: 80px;
+
+  @media (max-width: 768px)  {
+    margin-left: 0px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+}
+
+

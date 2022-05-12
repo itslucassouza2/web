@@ -1,0 +1,9 @@
+.dropdown_mobile--active::after {
+  transform: rotate(-90deg);
+}
+
+.product_catalog_filters--active {
+  max-height: 500px;
+  overflow: visible !important;
+  padding-bottom: 18px;
+}

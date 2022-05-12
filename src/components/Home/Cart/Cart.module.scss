@@ -1,0 +1,116 @@
+.cart-item {
+  .bm-cross-button {
+    display: none;
+  }
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #0D3840;
+    height: 100%;
+    z-index: 999px;
+    padding: 50px 50px 0px 50px;
+    width: auto;
+
+    .modal_close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        border: none;
+
+        img {
+           width: 20px;
+           height: 20px;
+        }
+     }
+
+    h5 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    @media (max-width: 765px) {
+      padding: 32px 16px;
+      max-width: 390px;
+      width: 90%;
+    }
+}
+
+.products {
+  display: flex;
+  margin: 16px 0px;
+  padding: 16px 8px 16px 0;
+  border-top: solid #01191E 1px;
+  border-bottom: solid #01191E 1px;
+  height: calc(100% - 200px);
+}
+
+.productscontent {
+  height: 100%;
+  padding-right: 6px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+  overscroll-behavior: contain;
+}
+
+.productscontent::-webkit-scrollbar {
+    width: 10px;
+}
+
+.productscontent::-webkit-scrollbar-track {
+    background-color: unset;
+    border-radius: 100px;
+}
+
+.productscontent::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #01191E;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 39px;
+      letter-spacing: 0em;
+      text-align: left;
+      font-size: 26px;
+    }
+
+    p:last-child {
+      font-weight: 700;
+    }
+}
+
+.buttoncontent {
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    button {
+      padding: 6px 20px;
+      width: 100%;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+}
+
+.footer {
+  height: 300px;
+  width: 100%;
+}

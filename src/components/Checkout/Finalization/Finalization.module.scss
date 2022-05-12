@@ -1,0 +1,107 @@
+@import '../../../assets/style/base';
+.mydata_page_wrap {
+   padding-bottom: 10px;
+   .config_top {
+     margin-top:-43px;
+
+     .config_top_title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 57px;
+        text-align: center;
+     }
+     .config_top_content {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        margin:0 154px;
+     }
+   }
+   .config_data {
+     margin:42px 10px 0px 10px;
+
+      .config_data1, .config_data2 {
+        display: flex;
+      }
+      .config_data1 p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+      }
+      .config_data2 p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 48px;
+      }
+   }
+   .config_group {
+      margin: 0 auto;
+      margin-bottom: 63px;
+      width: 1012px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .config_bottom {
+      margin : 20px 10px 0px 10px;
+      float:right;
+      .config_bottom_button {
+          width: 283px;
+          height: 46px;
+          left: 1183px;
+          top: 1287px;
+          background: #F15A24;
+          border-radius: 5px;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 33px;
+          border:none;
+      }
+    }
+
+}
+
+.config_data1_p1 {
+  margin-left:64px;
+}
+.config_data1_p2 {
+  margin-left: 101px;
+}
+.config_data2_p1 {
+  margin-left:82px;
+}
+.config_data2_p2 {
+  margin-left:302px;
+}
+.config_header {
+  display: flex;
+  margin-top: 82px;
+}
+.config_header_p1 {
+  margin-left:31px;
+}
+.config_header_p2 {
+  margin-left: 418px;
+}
+.config_header_p3 {
+  margin-left: 47px;
+}
+.config_header_p4 {
+  margin-left: 117px;
+}
+.config_top_content span {
+  font-size: 22px;
+  font-weight: bold;
+}

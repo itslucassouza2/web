@@ -1,0 +1,104 @@
+.card {
+    max-width: 238px;
+    background-color: #01191E;
+    border-radius: 14px;
+
+    @media (max-width: 768px) {
+      height: 252px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      max-width: 220px;
+    }
+}
+
+.cardimage {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 161px;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      width: 238px;
+      max-width: 238px;
+      height: 100%;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+    }
+
+
+    @media (max-width: 768px) {
+      height: 126px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      height: 106px;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+}
+
+.discount {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px 10px 4px 10px;
+    background: #34A853;
+    border-top-right-radius: 4px;
+}
+
+.carddescript {
+    padding: 14px 6px;
+}
+
+.pricebtn {
+  padding: 0 8px;
+  button {
+      width: 100%;
+      background: #0D3840;
+      border:none;
+      border-radius: 4px;
+  }
+}
+
+.cardtitle {
+    text-align: center;
+    margin-bottom: 9px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @media (max-width: 768px) {
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+}
+
+.cardicon {
+    margin-bottom: 9px;
+    padding: 0 8px;
+
+    img{
+      padding: 0 05px;
+    }
+
+    a {
+        margin-right: 4px;
+    }
+}

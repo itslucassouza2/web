@@ -1,0 +1,9 @@
+@import '../../../assets/style/base';
+
+.request_page_wrap {
+   display: flex;
+
+   @media (max-width: 768px) {
+      padding: 0 16px;
+   }
+}
